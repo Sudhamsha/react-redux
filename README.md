@@ -1,6 +1,6 @@
 ## Todo App with React-Redux
 
-Trying out Redux with React following course on [Egg Head](https://egghead.io/courses/build-a-react-app-with-redux) to build a basic todo app. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Trying out Redux with React following course on [Egg Head](https://egghead.io/courses/build-a-react-app-with-redux) to build a basic todo app. (This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).)
 
 ## Folder Structure
 
