@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import TodoForm from './components/todoform';
 import TodoList from './components/TodoList';
+import Message from './components/Message';
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         </div>
 
           <div className="todo-list">
+              <Message />
               <TodoForm />
               <TodoList />
           </div>

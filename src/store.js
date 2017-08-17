@@ -1,7 +1,13 @@
-import {createStore, applyMiddleware} from 'redux';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
-import reducer from './reducers/todo';
+import todoReducer from './reducers/todo';
+import messageReducer from './reducers/messages';
 import thunk from 'redux-thunk';
+
+const reducer = combineReducers({
+    todo: todoReducer,
+    message: messageReducer
+})
 
 export default createStore(
     reducer,

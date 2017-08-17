@@ -24,7 +24,7 @@
 }
 
 .todo-list {
-  padding-top: 20px;
+  padding-top: 35px;
   display: inline-block;
   text-align: left;
 }
@@ -39,4 +39,16 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.message {
+  background-color: #61dafb;
+  color: white;
+  border: solid 1px #61dafb;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  top: 200px;
 }

@@ -34,6 +34,16 @@
       "name": "Another todo",
       "isComplete": false,
       "id": 7
+    },
+    {
+      "name": "New one",
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "name": "Another todo 2",
+      "isComplete": false,
+      "id": 9
     }
   ]
 }
