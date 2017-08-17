@@ -4,6 +4,7 @@ import './App.css';
 import TodoForm from './components/todoform';
 import TodoList from './components/TodoList';
 
+
 class App extends Component {
   render() {
     return (
@@ -14,15 +15,12 @@ class App extends Component {
         </div>
 
           <div className="todo-list">
-              <TodoForm
-                  currentTodo = {this.props.currentTodo}
-                  changeCurrent = {this.props.changeCurrent}
-              />
-             <TodoList todos={this.props.todos}/>
+              <TodoForm />
+              <TodoList />
           </div>
       </div>
     );
   }
 }
 
-export default App;
+export default App
