@@ -20,7 +20,8 @@ describe('Todo Reducer', () => {
                 {id: 2, name: 'Create Initial State', isComplete: true},
                 {id: 3, name: 'Use State to render UI', isComplete: true},
                 {id: 4, name: 'Added todo', isComplete: false},
-            ]
+            ],
+            currentTodo: ''
         }
 
         const action = {type: 'TODO_ADD', payload: {id: 4, name: 'Added todo', isComplete: false}}
