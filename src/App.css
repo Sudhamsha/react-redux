@@ -69,3 +69,8 @@ span.delete-item button{
   text-decoration: none;
   color: red;
 }
+
+a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
