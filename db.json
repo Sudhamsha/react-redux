@@ -18,7 +18,7 @@
     {
       "id": 4,
       "name": "Add Record",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "name": "New todo",
@@ -27,7 +27,7 @@
     },
     {
       "name": "Another todo",
-      "isComplete": false,
+      "isComplete": true,
       "id": 7
     },
     {
