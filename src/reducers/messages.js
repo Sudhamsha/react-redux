@@ -1,5 +1,5 @@
 
-import {TODO_ADD, TODO_LOAD} from './todo';
+import {TODO_ADD, TODO_LOAD, TODO_REPLACE, TODO_DELETE} from './todo';
 
 const MESSAGE_SHOW = 'MESSAGE_SHOW'
 
@@ -11,6 +11,8 @@ export default function (state = '', action) {
             return action.payload
         case TODO_ADD:
         case TODO_LOAD:
+        case TODO_REPLACE:
+        case TODO_DELETE:
             return ''
         default:
             return state

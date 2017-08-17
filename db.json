@@ -21,11 +21,6 @@
       "isComplete": false
     },
     {
-      "id": 5,
-      "name": "Update Record",
-      "isComplete": false
-    },
-    {
       "name": "New todo",
       "isComplete": false,
       "id": 6
@@ -37,13 +32,8 @@
     },
     {
       "name": "New one",
-      "isComplete": false,
+      "isComplete": true,
       "id": 8
-    },
-    {
-      "name": "Another todo 2",
-      "isComplete": false,
-      "id": 9
     }
   ]
 }
